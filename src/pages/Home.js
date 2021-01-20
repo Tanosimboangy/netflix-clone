@@ -1,13 +1,14 @@
-import React from 'react'
-import { JumbotronContainer } from '../containers/jumbotron';
-import { FaqsContainerContainer } from '../containers/faqs';
-// import { FooterContainer } from '../containers/footer';
+import React from "react";
+import JumbontronContainer from "../containers/jumbotron";
+import FooterContainer from '../containers/footer'
+import FaqsContainer from '../containers/faqs'
+
 export default function Home() {
   return (
-  <>
-    <JumbotronContainer />
-    <FaqsContainerContainer />
-    {/* <FooterContainer /> */}
-  </>
-  )
+    <>
+    <JumbontronContainer ></JumbontronContainer>
+    <FaqsContainer></FaqsContainer>
+    <FooterContainer></FooterContainer>
+    </>
+  );
 }
