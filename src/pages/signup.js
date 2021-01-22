@@ -1,27 +1,33 @@
-import React, {useState} from 'react'
-import Form from '../components/form'
+import React, {useState} from 'react';
+import {Form} from '../components';
 import HeaderContainer from '../containers/header'
-import FooterContainer from '../containers/footer'
+import * as ROUTES from "../constants/routes";
+import FooterContainer from '../containers/footer';
 
-export default function Signin() {
-    const [error, setError] = useState('');
-    const [emailAddress, setEmailAddress] = useState('');
-    const [password, setPassword] = useState('');
+export default function Signup() {
+    const [firstName, setFirstName] = useState();
+    const [emailAddress, setEmailAddress] = useState();
+    const [password, setPassword] = useState();
+    const [error, setError] = useState();
 
-    const isValid = !emailAddress || !password; 
-
-    const handleSignin = (event) => {
+    const handleSignup = (event) => {
         event.preventDefault();
     }
+
+    const isValid = firstName === '' || emailAddress === '' || password === ''; 
 
     return (
         <>
             <HeaderContainer>
-                <Form>
+            <Form>
                     <Form.Title>Sign in</Form.Title>
                     {error && <Form.Error>{error}</Form.Error>}
-
-                    <Form.Base onSubmit={handleSignin} >
+                    <Form.Base onSubmit={handleSignup} method="POST">
+                        <Form.Input 
+                            placeholder="First Name"
+                            value={firstName}
+                            onChange={({target}) => setFirstName(target.value)}
+                        />
                         <Form.Input 
                             placeholder="Email address"
                             value={emailAddress}
@@ -38,7 +44,7 @@ export default function Signin() {
                             Sign in
                         </Form.Submit>
                         <Form.Text>
-                            New to Netflix? <Form.Link to="/signup">Sign up now</Form.Link>
+                            Already have an account. <Form.Link to={ROUTES.SIGN_IN}>Sign in</Form.Link>
                         </Form.Text>
                         <Form.TextSmall>
                             This page is protected by Google reCAPTCHA

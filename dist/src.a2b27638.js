@@ -34260,9 +34260,9 @@ var HOME = "/";
 exports.HOME = HOME;
 var BROWSE = "/browse";
 exports.BROWSE = BROWSE;
-var SIGN_UP = "/sign_up";
+var SIGN_UP = "/signup";
 exports.SIGN_UP = SIGN_UP;
-var SIGN_IN = "/sign_in";
+var SIGN_IN = "/signin";
 exports.SIGN_IN = SIGN_IN;
 },{}],"src/fixtures/jumbo.json":[function(require,module,exports) {
 module.exports = [{
@@ -37443,7 +37443,7 @@ var _reactRouterDom = require("react-router-dom");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject9() {
-  var data = _taggedTemplateLiteral([""]);
+  var data = _taggedTemplateLiteral(["\n    background: #e50914;\n    border-radius: 4px;\n    font-size: 16px;\n    font-weight: bold;\n    margin: 0 0 12px;\n    padding: 16px;\n    border: 0;\n    color: white;\n    cursor: pointer;\n    &:disabled {\n        opacity: 0.5;\n    }\n"]);
 
   _templateObject9 = function _templateObject9() {
     return data;
@@ -37453,7 +37453,7 @@ function _templateObject9() {
 }
 
 function _templateObject8() {
-  var data = _taggedTemplateLiteral([""]);
+  var data = _taggedTemplateLiteral(["\n    background: #333;\n    border-radius: 4px;\n    border: 0;\n    color: #fff;\n    height: 50px;\n    line-height: 50px;\n    padding: 5px 20px;\n    margin-bottom: 20px;\n    &:last-of-type {\n        margin-bottom: 30px;\n    }\n"]);
 
   _templateObject8 = function _templateObject8() {
     return data;
@@ -37463,7 +37463,7 @@ function _templateObject8() {
 }
 
 function _templateObject7() {
-  var data = _taggedTemplateLiteral([""]);
+  var data = _taggedTemplateLiteral(["\n    color: #fff;\n    text-decoration: none;\n    &:hover {\n        text-decoration: underline;\n    }\n"]);
 
   _templateObject7 = function _templateObject7() {
     return data;
@@ -37473,7 +37473,7 @@ function _templateObject7() {
 }
 
 function _templateObject6() {
-  var data = _taggedTemplateLiteral([""]);
+  var data = _taggedTemplateLiteral(["\n    margin-top: 10px;\n    font-size: 13px;\n    line-height: normal;\n    color: #8c8c8c;\n"]);
 
   _templateObject6 = function _templateObject6() {
     return data;
@@ -37483,7 +37483,7 @@ function _templateObject6() {
 }
 
 function _templateObject5() {
-  var data = _taggedTemplateLiteral([""]);
+  var data = _taggedTemplateLiteral(["\n    color: #737373;\n    font-size: 16px;\n    font-weight: 500;\n"]);
 
   _templateObject5 = function _templateObject5() {
     return data;
@@ -37493,7 +37493,7 @@ function _templateObject5() {
 }
 
 function _templateObject4() {
-  var data = _taggedTemplateLiteral([""]);
+  var data = _taggedTemplateLiteral(["\n    color: #fff;\n    font-size: 32px;\n    font-weight: bold;\n    margin-bottom: 28px;\n"]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -37503,7 +37503,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral([""]);
+  var data = _taggedTemplateLiteral(["\n    display: flex;\n    flex-direction: column;\n    max-width: 450px;\n    width: 100%;\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -37513,7 +37513,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = _taggedTemplateLiteral([""]);
+  var data = _taggedTemplateLiteral(["\n    background: #e87c03;\n    border-radius: 4px;\n    font-size: 14px;\n    margin: 0 0 16px;\n    color: white;\n    padding: 15px 20px;\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -37523,7 +37523,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral([""]);
+  var data = _taggedTemplateLiteral(["\n    display: flex;\n    flex-direction: column;\n    min-height: 660px;\n    background-color: rgba(0, 0, 0, 0.75);\n    border-radius: 5px;\n    box-sizing: border-box;\n    width: 100%;\n    margin: auto;\n    max-width: 450px;\n    padding: 60px 68px 40px;\n    margin-bottom: 100px;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -37647,7 +37647,167 @@ Form.Error = function FormError(_ref9) {
 
   return /*#__PURE__*/_react.default.createElement(_form.Error, restProps, children);
 };
-},{"react":"node_modules/react/index.js","./style/form":"src/components/form/style/form.js"}],"src/components/index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./style/form":"src/components/form/style/form.js"}],"src/components/profiles/styles/profiles.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Item = exports.Picture = exports.Name = exports.List = exports.Title = exports.Container = void 0;
+
+var _styledComponents = _interopRequireDefault(require("styled-components"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _templateObject6() {
+  var data = _taggedTemplateLiteral(["\n    max-height: 200px;\n    max-width: 200px;\n    list-style-type: none;\n    text-align: center;\n    margin-right: 30px;\n    &:hover > ", " {\n        border: 3px solid white;\n    }\n    &:hover ", " {\n        font-weight: bold;\n        color: white;\n    }\n    &:last-of-type {\n        margin-right: 0;\n    }\n"]);
+
+  _templateObject6 = function _templateObject6() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject5() {
+  var data = _taggedTemplateLiteral(["\n    width: 100%;\n    max-width: 150px;\n    height: auto;\n    border: 3px solid black;\n    cursor: pointer;\n"]);
+
+  _templateObject5 = function _templateObject5() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject4() {
+  var data = _taggedTemplateLiteral(["\n    color: #808080;\n    text-overflow: ellipsis;\n    font-size: 16px;\n    &:hover {\n        font-weight: bold;\n        color: #e5e5e5;\n    }\n"]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject3() {
+  var data = _taggedTemplateLiteral(["\n    padding: 0;\n    margin: 0;\n    display: flex;\n    flex-direction: row;\n"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  var data = _taggedTemplateLiteral(["\n    width: 100%;\n    color: #fff;\n    font-size: 48px;\n    text-align: center;\n    font-weight: 500;\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin: auto;\n    max-width: 80%;\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+var Container = _styledComponents.default.div(_templateObject());
+
+exports.Container = Container;
+
+var Title = _styledComponents.default.h1(_templateObject2());
+
+exports.Title = Title;
+
+var List = _styledComponents.default.ul(_templateObject3());
+
+exports.List = List;
+
+var Name = _styledComponents.default.p(_templateObject4());
+
+exports.Name = Name;
+
+var Picture = _styledComponents.default.img(_templateObject5());
+
+exports.Picture = Picture;
+
+var Item = _styledComponents.default.li(_templateObject6(), Picture, Name);
+
+exports.Item = Item;
+},{"styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js"}],"src/components/profiles/index.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Profiles;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _profiles = require("./styles/profiles");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function Profiles(_ref) {
+  var children = _ref.children,
+      restProps = _objectWithoutProperties(_ref, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_profiles.Container, restProps, children);
+}
+
+Profiles.Title = function ProfilesTitle(_ref2) {
+  var children = _ref2.children,
+      restProps = _objectWithoutProperties(_ref2, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_profiles.Title, restProps, children);
+};
+
+Profiles.List = function ProfilesList(_ref3) {
+  var children = _ref3.children,
+      restProps = _objectWithoutProperties(_ref3, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_profiles.List, restProps, children);
+};
+
+Profiles.User = function ProfilesUser(_ref4) {
+  var children = _ref4.children,
+      restProps = _objectWithoutProperties(_ref4, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_profiles.Item, restProps, children);
+};
+
+Profiles.Picture = function ProfilesPicture(_ref5) {
+  var src = _ref5.src,
+      restProps = _objectWithoutProperties(_ref5, ["src"]);
+
+  return /*#__PURE__*/_react.default.createElement(_profiles.Picture, _extends({}, restProps, {
+    src: src ? "/images/users/".concat(src, ".png") : '/images/misc/loading.gif'
+  }));
+};
+
+Profiles.Name = function ProfilesName(_ref6) {
+  var children = _ref6.children,
+      restProps = _objectWithoutProperties(_ref6, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_profiles.Name, restProps, children);
+};
+},{"react":"node_modules/react/index.js","./styles/profiles":"src/components/profiles/styles/profiles.js"}],"src/components/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -37695,6 +37855,12 @@ Object.defineProperty(exports, "Form", {
     return _form.default;
   }
 });
+Object.defineProperty(exports, "Profiles", {
+  enumerable: true,
+  get: function () {
+    return _profiles.default;
+  }
+});
 
 var _jumbotron = _interopRequireDefault(require("./jumbotron"));
 
@@ -37710,8 +37876,10 @@ var _feature = _interopRequireDefault(require("./feature"));
 
 var _form = _interopRequireDefault(require("./form"));
 
+var _profiles = _interopRequireDefault(require("./profiles"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./jumbotron":"src/components/jumbotron/index.js","./footer":"src/components/footer/index.js","./accordion":"src/components/accordion/index.js","./Header":"src/components/Header/index.js","./opt-form":"src/components/opt-form/index.js","./feature":"src/components/feature/index.js","./form":"src/components/form/index.js"}],"src/containers/jumbotron.js":[function(require,module,exports) {
+},{"./jumbotron":"src/components/jumbotron/index.js","./footer":"src/components/footer/index.js","./accordion":"src/components/accordion/index.js","./Header":"src/components/Header/index.js","./opt-form":"src/components/opt-form/index.js","./feature":"src/components/feature/index.js","./form":"src/components/form/index.js","./profiles":"src/components/profiles/index.js"}],"src/containers/jumbotron.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -37912,6 +38080,8 @@ var _form = _interopRequireDefault(require("../components/form"));
 
 var _header = _interopRequireDefault(require("../containers/header"));
 
+var _footer = _interopRequireDefault(require("../containers/footer"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
@@ -37936,9 +38106,263 @@ function Signin() {
       error = _useState2[0],
       setError = _useState2[1];
 
-  return /*#__PURE__*/_react.default.createElement(_header.default, null, /*#__PURE__*/_react.default.createElement(_form.default, null, /*#__PURE__*/_react.default.createElement(_form.default.Title, null, "Sign in"), Error && /*#__PURE__*/_react.default.createElement(_form.default.Error, null, error)));
+  var _useState3 = (0, _react.useState)(''),
+      _useState4 = _slicedToArray(_useState3, 2),
+      emailAddress = _useState4[0],
+      setEmailAddress = _useState4[1];
+
+  var _useState5 = (0, _react.useState)(''),
+      _useState6 = _slicedToArray(_useState5, 2),
+      password = _useState6[0],
+      setPassword = _useState6[1];
+
+  var isValid = !emailAddress || !password;
+
+  var handleSignin = function handleSignin(event) {
+    event.preventDefault();
+  };
+
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_header.default, null, /*#__PURE__*/_react.default.createElement(_form.default, null, /*#__PURE__*/_react.default.createElement(_form.default.Title, null, "Sign in"), error && /*#__PURE__*/_react.default.createElement(_form.default.Error, null, error), /*#__PURE__*/_react.default.createElement(_form.default.Base, {
+    onSubmit: handleSignin
+  }, /*#__PURE__*/_react.default.createElement(_form.default.Input, {
+    placeholder: "Email address",
+    value: emailAddress,
+    onChange: function onChange(_ref) {
+      var target = _ref.target;
+      return setEmailAddress(target.value);
+    }
+  }), /*#__PURE__*/_react.default.createElement(_form.default.Input, {
+    type: "password",
+    value: password,
+    autoComplete: "off",
+    placeholder: "Password",
+    onChange: function onChange(_ref2) {
+      var target = _ref2.target;
+      return setPassword(target.value);
+    }
+  }), /*#__PURE__*/_react.default.createElement(_form.default.Submit, {
+    disabled: isValid,
+    type: "submit"
+  }, "Sign in"), /*#__PURE__*/_react.default.createElement(_form.default.Text, null, "New to Netflix? ", /*#__PURE__*/_react.default.createElement(_form.default.Link, {
+    to: "/signup"
+  }, "Sign up now")), /*#__PURE__*/_react.default.createElement(_form.default.TextSmall, null, "This page is protected by Google reCAPTCHA")))), /*#__PURE__*/_react.default.createElement(_footer.default, null));
 }
-},{"react":"node_modules/react/index.js","../components/form":"src/components/form/index.js","../containers/header":"src/containers/header.js"}],"src/pages/index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../components/form":"src/components/form/index.js","../containers/header":"src/containers/header.js","../containers/footer":"src/containers/footer.js"}],"src/pages/signup.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Signup;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _components = require("../components");
+
+var _header = _interopRequireDefault(require("../containers/header"));
+
+var ROUTES = _interopRequireWildcard(require("../constants/routes"));
+
+var _footer = _interopRequireDefault(require("../containers/footer"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function Signup() {
+  var _useState = (0, _react.useState)(),
+      _useState2 = _slicedToArray(_useState, 2),
+      firstName = _useState2[0],
+      setFirstName = _useState2[1];
+
+  var _useState3 = (0, _react.useState)(),
+      _useState4 = _slicedToArray(_useState3, 2),
+      emailAddress = _useState4[0],
+      setEmailAddress = _useState4[1];
+
+  var _useState5 = (0, _react.useState)(),
+      _useState6 = _slicedToArray(_useState5, 2),
+      password = _useState6[0],
+      setPassword = _useState6[1];
+
+  var _useState7 = (0, _react.useState)(),
+      _useState8 = _slicedToArray(_useState7, 2),
+      error = _useState8[0],
+      setError = _useState8[1];
+
+  var handleSignup = function handleSignup(event) {
+    event.preventDefault();
+  };
+
+  var isValid = firstName === '' || emailAddress === '' || password === '';
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_header.default, null, /*#__PURE__*/_react.default.createElement(_components.Form, null, /*#__PURE__*/_react.default.createElement(_components.Form.Title, null, "Sign in"), error && /*#__PURE__*/_react.default.createElement(_components.Form.Error, null, error), /*#__PURE__*/_react.default.createElement(_components.Form.Base, {
+    onSubmit: handleSignup,
+    method: "POST"
+  }, /*#__PURE__*/_react.default.createElement(_components.Form.Input, {
+    placeholder: "First Name",
+    value: firstName,
+    onChange: function onChange(_ref) {
+      var target = _ref.target;
+      return setFirstName(target.value);
+    }
+  }), /*#__PURE__*/_react.default.createElement(_components.Form.Input, {
+    placeholder: "Email address",
+    value: emailAddress,
+    onChange: function onChange(_ref2) {
+      var target = _ref2.target;
+      return setEmailAddress(target.value);
+    }
+  }), /*#__PURE__*/_react.default.createElement(_components.Form.Input, {
+    type: "password",
+    value: password,
+    autoComplete: "off",
+    placeholder: "Password",
+    onChange: function onChange(_ref3) {
+      var target = _ref3.target;
+      return setPassword(target.value);
+    }
+  }), /*#__PURE__*/_react.default.createElement(_components.Form.Submit, {
+    disabled: isValid,
+    type: "submit"
+  }, "Sign in"), /*#__PURE__*/_react.default.createElement(_components.Form.Text, null, "Already have an account. ", /*#__PURE__*/_react.default.createElement(_components.Form.Link, {
+    to: ROUTES.SIGN_IN
+  }, "Sign in")), /*#__PURE__*/_react.default.createElement(_components.Form.TextSmall, null, "This page is protected by Google reCAPTCHA")))), /*#__PURE__*/_react.default.createElement(_footer.default, null));
+}
+},{"react":"node_modules/react/index.js","../components":"src/components/index.js","../containers/header":"src/containers/header.js","../constants/routes":"src/constants/routes.js","../containers/footer":"src/containers/footer.js"}],"src/context/firebase.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.FirebaseContext = void 0;
+
+var _react = require("react");
+
+var FirebaseContext = (0, _react.createContext)();
+exports.FirebaseContext = FirebaseContext;
+},{"react":"node_modules/react/index.js"}],"src/containers/profiles.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = ProfileContainer;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _components = require("../components");
+
+var ROUTES = _interopRequireWildcard(require("../constants/routes"));
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function ProfileContainer(_ref) {
+  var user = _ref.user,
+      setProfile = _ref.setProfile;
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_components.Header, {
+    bg: false
+  }, /*#__PURE__*/_react.default.createElement(_components.Header.Frame, null, /*#__PURE__*/_react.default.createElement(_components.Header.Logo, {
+    to: ROUTES.HOME,
+    src: "/images/misc/logo/svg",
+    alt: "Netflix"
+  }))), /*#__PURE__*/_react.default.createElement(_components.Profiles, null, /*#__PURE__*/_react.default.createElement(_components.Profiles.Title, null, "Who's watching?"), /*#__PURE__*/_react.default.createElement(_components.Profiles.List, null, /*#__PURE__*/_react.default.createElement(_components.Profiles.User, {
+    onclick: function onclick() {
+      return setProfile({
+        displayName: user.displayName,
+        photoUrl: user.photoUrl
+      });
+    }
+  }, /*#__PURE__*/_react.default.createElement(_components.Profiles.Picture, {
+    src: user.photoUrl
+  }), /*#__PURE__*/_react.default.createElement(_components.Profiles.Name, null, user.displayName)))));
+}
+},{"react":"node_modules/react/index.js","../components":"src/components/index.js","../constants/routes":"src/constants/routes.js"}],"src/containers/browse.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = BrowseConstainer;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _header = require("./header");
+
+var ROUTES = _interopRequireWildcard(require("../constants/routes"));
+
+var _firebase = require("../context/firebase");
+
+var _profiles = require("./profiles");
+
+var _footer = require("./footer");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function BrowseConstainer() {
+  var _useState = (0, _react.useState)({}),
+      _useState2 = _slicedToArray(_useState, 2),
+      profile = _useState2[0],
+      setProfile = _useState2[1];
+
+  var user = {
+    displayName: "Arisoa",
+    photoURL: '1'
+  };
+  return profile.displayName ? /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("p", null, "Browser Container"), /*#__PURE__*/_react.default.createElement(_footer.FooterContainer, null)) : /*#__PURE__*/_react.default.createElement(_profiles.ProfileContainer, {
+    user: user,
+    setProfile: setProfile
+  });
+}
+},{"react":"node_modules/react/index.js","./header":"src/containers/header.js","../constants/routes":"src/constants/routes.js","../context/firebase":"src/context/firebase.js","./profiles":"src/containers/profiles.js","./footer":"src/containers/footer.js"}],"src/pages/browse.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Browse;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _browse = _interopRequireDefault(require("../containers/browse"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Browse() {
+  return /*#__PURE__*/_react.default.createElement(_browse.default, null);
+}
+},{"react":"node_modules/react/index.js","../containers/browse":"src/containers/browse.js"}],"src/pages/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -37956,13 +38380,29 @@ Object.defineProperty(exports, "Signin", {
     return _signin.default;
   }
 });
+Object.defineProperty(exports, "Signup", {
+  enumerable: true,
+  get: function () {
+    return _signup.default;
+  }
+});
+Object.defineProperty(exports, "Browse", {
+  enumerable: true,
+  get: function () {
+    return _browse.default;
+  }
+});
 
 var _Home = _interopRequireDefault(require("./Home"));
 
 var _signin = _interopRequireDefault(require("./signin"));
 
+var _signup = _interopRequireDefault(require("./signup"));
+
+var _browse = _interopRequireDefault(require("./browse"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./Home":"src/pages/Home.js","./signin":"src/pages/signin.js"}],"src/app.js":[function(require,module,exports) {
+},{"./Home":"src/pages/Home.js","./signin":"src/pages/signin.js","./signup":"src/pages/signup.js","./browse":"src/pages/browse.js"}],"src/app.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -37984,15 +38424,14 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// import { BROWSE, SIGN_IN, SIGN_UP } from "./components/constants/routes";
 function App() {
   return /*#__PURE__*/_react.default.createElement(_reactRouterDom.BrowserRouter, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Switch, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     path: ROUTES.SIGN_IN
   }, /*#__PURE__*/_react.default.createElement(_pages.Signin, null)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     path: ROUTES.SIGN_UP
-  }, /*#__PURE__*/_react.default.createElement("p", null, "I will be the sign up page")), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
+  }, /*#__PURE__*/_react.default.createElement(_pages.Signup, null)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     path: ROUTES.BROWSE
-  }, /*#__PURE__*/_react.default.createElement("p", null, "I will be the browse page")), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
+  }, /*#__PURE__*/_react.default.createElement(_pages.Browse, null)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     path: ROUTES.HOME
   }, /*#__PURE__*/_react.default.createElement(_pages.Home, null))));
 }
@@ -38020,19 +38459,7 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 var GlobalStyles = (0, _styledComponents.createGlobalStyle)(_templateObject());
 exports.GlobalStyles = GlobalStyles;
-},{"styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js"}],"src/context/firebase.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.FirebaseContext = void 0;
-
-var _react = require("react");
-
-var FirebaseContext = (0, _react.createContext)();
-exports.FirebaseContext = FirebaseContext;
-},{"react":"node_modules/react/index.js"}],"src/index.js":[function(require,module,exports) {
+},{"styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js"}],"src/index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -38090,7 +38517,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57347" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57662" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
