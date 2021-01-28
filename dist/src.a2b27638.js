@@ -38223,7 +38223,7 @@ var _styledComponents = _interopRequireDefault(require("styled-components"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject15() {
-  var data = _taggedTemplateLiteral(["\n    background-color: ", ";\n    border-radius: 15px;\n    width: 20px;\n    padding: 5px;\n    text-align: center;\n    color: white;\n    font-weight: bold;\n    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);\n    margin-right: 10px;\n    font-size: 12px;\n"]);
+  var data = _taggedTemplateLiteral(["\n\tbackground-color: ", ";\n\tborder-radius: 15px;\n\twidth: 20px;\n\tpadding: 5px;\n\ttext-align: center;\n\tcolor: white;\n\tfont-weight: bold;\n\ttext-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);\n\tmargin-right: 10px;\n\tfont-size: 12px;\n"]);
 
   _templateObject15 = function _templateObject15() {
     return data;
@@ -38233,7 +38233,7 @@ function _templateObject15() {
 }
 
 function _templateObject14() {
-  var data = _taggedTemplateLiteral(["\n    margin: 56px;\n    max-width: 500px;\n    line-height: normal;\n    @media (max-width: 1000px) {\n        margin: 30px;\n        max-width: none;\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n\tmargin: 56px;\n\tmax-width: 500px;\n\tline-height: normal;\n\n\t@media (max-width: 1000px) {\n\t\tmargin: 30px;\n\t\tmax-width: none;\n\t}\n"]);
 
   _templateObject14 = function _templateObject14() {
     return data;
@@ -38243,7 +38243,7 @@ function _templateObject14() {
 }
 
 function _templateObject13() {
-  var data = _taggedTemplateLiteral(["\n    color: white;\n    position: absolute;\n    right: 20px;\n    top: 20px;\n    cursor: pointer;\n    background-color: transparent;\n    border: 0;\n    img {\n        filter: brightness(0) invert(1);\n        width: 24px;\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n\tcolor: white;\n\tposition: absolute;\n\tright: 20px;\n\ttop: 20px;\n\tcursor: pointer;\n\tbackground-color: transparent;\n\tborder: 0;\n\n\timg {\n\t\tfilter: brightness(0) invert(1);\n\t\twidth: 24px;\n\t}\n"]);
 
   _templateObject13 = function _templateObject13() {
     return data;
@@ -38253,7 +38253,7 @@ function _templateObject13() {
 }
 
 function _templateObject12() {
-  var data = _taggedTemplateLiteral(["\n    margin-left: 0;\n"]);
+  var data = _taggedTemplateLiteral(["\n\tmargin-left: 0;\n"]);
 
   _templateObject12 = function _templateObject12() {
     return data;
@@ -38263,7 +38263,7 @@ function _templateObject12() {
 }
 
 function _templateObject11() {
-  var data = _taggedTemplateLiteral(["\n    display: flex;\n    flex-direction: row;\n    background: url(", ");\n    background-size: contain;\n    position: relative;\n    height: 360px;\n    background-position-x: right;\n    background-repeat: no-repeat;\n    background-color: black;\n    @media (max-width: 1000px) {\n        height: auto;\n        background-size: auto;\n        ", " {\n            font-size: 20px;\n            line-height: 20px;\n            margin-bottom: 10px;\n        }\n        ", " {\n            font-size: 14px;\n        }\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n\tdisplay: flex;\n\tflex-direction: row;\n\tbackground: url(", ");\n\tbackground-size: contain;\n\tposition: relative;\n\theight: 360px;\n\tbackground-position-x: right;\n\tbackground-repeat: no-repeat;\n\tbackground-color: black;\n\n\t@media (max-width: 1000px) {\n\t\theight: auto;\n\t\tbackground-size: auto;\n\n\t\t", " {\n\t\t\tfont-size: 20px;\n\t\t\tline-height: 20px;\n\t\t\tmargin-bottom: 10px;\n\t\t}\n\t\t", " {\n\t\t\tfont-size: 14px;\n\t\t}\n\t}\n"]);
 
   _templateObject11 = function _templateObject11() {
     return data;
@@ -38273,7 +38273,7 @@ function _templateObject11() {
 }
 
 function _templateObject10() {
-  var data = _taggedTemplateLiteral(["\n    font-size: 18px;\n    color: white;\n    font-weight: ", ";\n    margin: 0;\n    @media (max-width: 800px) {\n        line-height: 22px;\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n\tfont-size: 18px;\n\tcolor: white;\n\tfont-weight: ", ";\n\tmargin: 0;\n\n\t@media (max-width: 800px) {\n\t\tline-height: 22px;\n\t}\n"]);
 
   _templateObject10 = function _templateObject10() {
     return data;
@@ -38283,7 +38283,7 @@ function _templateObject10() {
 }
 
 function _templateObject9() {
-  var data = _taggedTemplateLiteral(["\n    display: flex;\n    flex-direction: column;\n    margin-right: 5px;\n    position: relative;\n    cursor: pointer;\n    transition: transform 0.2;\n    &:hover {\n        transform: scale(1.3);\n        z-index: 99;\n    }\n    @media (min-width: 1000px) {\n        &:hover ", ", &:hover ", ", &:hover ", " {\n            display: block;\n            z-index: 100;\n        }\n    }\n    &:first-of-type {\n        margin-left: 56px;\n        @media (max-width: 1000px) {\n            margin-left: 30px;\n        }\n    }\n    &:last-of-type {\n        margin-right: 56px;\n        @media (max-width: 1000px) {\n            margin-right: 30px;\n        }\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n\tdisplay: flex;\n\tflex-direction: column;\n\tmargin-right: 5px;\n\tposition: relative;\n\tcursor: pointer;\n\ttransition: transform 0.2;\n\n\t&:hover {\n\t\ttransform: scale(1.3);\n\t\tz-index: 99;\n\t}\n\n\t@media (min-width: 1000px) {\n\t\t&:hover ", ", &:hover ", ", &:hover ", " {\n\t\t\tdisplay: block;\n\t\t\tz-index: 100;\n\t\t}\n\t}\n\n\t&:first-of-type {\n\t\tmargin-left: 56px;\n\n\t\t@media (max-width: 1000px) {\n\t\t\tmargin-left: 30px;\n\t\t}\n\t}\n\n\t&:last-of-type {\n\t\tmargin-right: 56px;\n\n\t\t@media (max-width: 1000px) {\n\t\t\tmargin-right: 30px;\n\t\t}\n\t}\n"]);
 
   _templateObject9 = function _templateObject9() {
     return data;
@@ -38293,7 +38293,7 @@ function _templateObject9() {
 }
 
 function _templateObject8() {
-  var data = _taggedTemplateLiteral(["\n    border: 0;\n    width: 100%;\n    max-width: 305px;\n    cursor: pointer;\n    height: auto;\n    padding: 0;\n    margin: 0;\n"]);
+  var data = _taggedTemplateLiteral(["\n\tborder: 0;\n\twidth: 100%;\n\tmax-width: 305px;\n\tcursor: pointer;\n\theight: auto;\n\tpadding: 0;\n\tmargin: 0;\n"]);
 
   _templateObject8 = function _templateObject8() {
     return data;
@@ -38303,7 +38303,7 @@ function _templateObject8() {
 }
 
 function _templateObject7() {
-  var data = _taggedTemplateLiteral(["\n    display: none;\n    position: absolute;\n    bottom: 0;\n    padding: 10px;\n    background-color: #0000008f;\n"]);
+  var data = _taggedTemplateLiteral(["\n\tdisplay: none;\n\tposition: absolute;\n\tbottom: 0;\n\tpadding: 10px;\n\tbackground-color: #0000008f;\n"]);
 
   _templateObject7 = function _templateObject7() {
     return data;
@@ -38313,7 +38313,7 @@ function _templateObject7() {
 }
 
 function _templateObject6() {
-  var data = _taggedTemplateLiteral(["\n    display: flex;\n    flex-direction: row;\n"]);
+  var data = _taggedTemplateLiteral(["\n\tdisplay: flex;\n\tflex-direction: row;\n"]);
 
   _templateObject6 = function _templateObject6() {
     return data;
@@ -38323,7 +38323,7 @@ function _templateObject6() {
 }
 
 function _templateObject5() {
-  var data = _taggedTemplateLiteral(["\n    margin-top: 5px;\n    font-size: 10px;\n    color: white;\n    margin-bottom: 0;\n    user-select: none;\n    display: none;\n    line-height: normal;\n"]);
+  var data = _taggedTemplateLiteral(["\n\tmargin-top: 5px;\n\tfont-size: 10px;\n\tcolor: white;\n\tmargin-bottom: 0;\n\tuser-select: none;\n\tdisplay: none;\n\tline-height: normal;\n"]);
 
   _templateObject5 = function _templateObject5() {
     return data;
@@ -38333,7 +38333,7 @@ function _templateObject5() {
 }
 
 function _templateObject4() {
-  var data = _taggedTemplateLiteral(["\n    font-size: 12px;\n    color: white;\n    font-weight: bold;\n    margin-top: 0;\n    margin-bottom: 0;\n    user-select: none;\n    display: none;\n"]);
+  var data = _taggedTemplateLiteral(["\n\tfont-size: 12px;\n\tcolor: white;\n\tfont-weight: bold;\n\tmargin-top: 0;\n\tmargin-bottom: 0;\n\tuser-select: none;\n\tdisplay: none;\n"]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -38343,7 +38343,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\n    display: flex;\n    flex-direction: ", ";\n    ", ";\n    ", ";\n    > ", ":first-of-type {\n        @media (min-width: 1100px) {\n            margin-top: -150px;\n        }\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n\tdisplay: flex;\n\tflex-direction: ", ";\n\t", ";\n\t", ";\n\n\t> ", ":first-of-type {\n\t\t@media (min-width: 1100px) {\n\t\t\tmargin-top: -150px;\n\t\t}\n\t}\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -38353,7 +38353,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 50px;\n    box-sizing: border-box;\n    > ", " {\n        @media (max-width: 1000px) {\n            margin-left: 30px;\n        }\n    }\n    &:last-of-type {\n        margin-bottom: 0;\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n\tdisplay: flex;\n\tflex-direction: column;\n\tmargin-bottom: 50px;\n\tbox-sizing: border-box;\n\n\t> ", " {\n\t\t@media (max-width: 1000px) {\n\t\t\tmargin-left: 30px;\n\t\t}\n\t}\n\n\t&:last-of-type {\n\t\tmargin-bottom: 0;\n\t}\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -38363,7 +38363,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n    font-size: 24px;\n    color: #e5e5e5;\n    font-weight: bold;\n    margin-left: 56px;\n    margin-right: 56px;\n    margin-top: 0;\n"]);
+  var data = _taggedTemplateLiteral(["\n\tfont-size: 24px;\n\tcolor: #e5e5e5;\n\tfont-weight: bold;\n\tmargin-left: 56px;\n\tmargin-right: 56px;\n\tmargin-top: 0;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -38516,7 +38516,7 @@ Card.Group = function CardGroup(_ref2) {
   return /*#__PURE__*/_react.default.createElement(_card.Group, restProps, children);
 };
 
-Card.Title = function CardTtile(_ref3) {
+Card.Title = function CardTitle(_ref3) {
   var children = _ref3.children,
       restProps = _objectWithoutProperties(_ref3, ["children"]);
 
@@ -38530,25 +38530,25 @@ Card.SubTitle = function CardSubTitle(_ref4) {
   return /*#__PURE__*/_react.default.createElement(_card.SubTitle, restProps, children);
 };
 
-Card.Text = function CardText(_ref5) {
+Card.Entities = function CardEntities(_ref5) {
   var children = _ref5.children,
       restProps = _objectWithoutProperties(_ref5, ["children"]);
-
-  return /*#__PURE__*/_react.default.createElement(_card.Text, restProps, children);
-};
-
-Card.Entities = function CardEntities(_ref6) {
-  var children = _ref6.children,
-      restProps = _objectWithoutProperties(_ref6, ["children"]);
 
   return /*#__PURE__*/_react.default.createElement(_card.Entities, restProps, children);
 };
 
-Card.Meta = function CardMeta(_ref7) {
+Card.Meta = function CardMeta(_ref6) {
+  var children = _ref6.children,
+      restProps = _objectWithoutProperties(_ref6, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_card.Meta, restProps, children);
+};
+
+Card.Text = function CardText(_ref7) {
   var children = _ref7.children,
       restProps = _objectWithoutProperties(_ref7, ["children"]);
 
-  return /*#__PURE__*/_react.default.createElement(_card.Meta, restProps, children);
+  return /*#__PURE__*/_react.default.createElement(_card.Text, restProps, children);
 };
 
 Card.Item = function CardItem(_ref8) {
@@ -38574,10 +38574,9 @@ Card.Image = function CardImage(_ref9) {
 };
 
 Card.Feature = function CardFeature(_ref10) {
-  var children = _ref10.children,
-      src = _ref10.src,
-      category = _ref10.category,
-      restProps = _objectWithoutProperties(_ref10, ["children", "src", "category"]);
+  var category = _ref10.category,
+      children = _ref10.children,
+      restProps = _objectWithoutProperties(_ref10, ["category", "children"]);
 
   var _useContext2 = (0, _react.useContext)(FeatureContext),
       showFeature = _useContext2.showFeature,
@@ -38592,7 +38591,7 @@ Card.Feature = function CardFeature(_ref10) {
     }
   }, /*#__PURE__*/_react.default.createElement("img", {
     src: "/images/icons/close.png",
-    alt: "Close"
+    alt: "close"
   })), /*#__PURE__*/_react.default.createElement(_card.Group, {
     margin: "30px 0",
     flexDirection: "row",
@@ -38603,7 +38602,207 @@ Card.Feature = function CardFeature(_ref10) {
     fontWeight: "bold"
   }, itemFeature.genre.charAt(0).toUpperCase() + itemFeature.genre.slice(1))), children)) : null;
 };
-},{"react":"node_modules/react/index.js","./styles/card":"src/components/card/styles/card.js"}],"src/components/index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./styles/card":"src/components/card/styles/card.js"}],"src/components/player/styles/player.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Button = exports.Close = exports.Inner = exports.Overlay = exports.Container = void 0;
+
+var _styledComponents = _interopRequireDefault(require("styled-components"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _templateObject5() {
+  var data = _taggedTemplateLiteral(["\n    background-color: #e50914;\n    border-color: #ff0a16;\n    width: 115px;\n    height: 45px;\n    text-transform: uppercase;\n    font-weight: bold;\n    color: white;\n    font-size: 18px;\n    height: 45px;\n    cursor: pointer;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    padding-left: 0;\n    &:hover {\n        transform: scale(1.05);\n        background-color: #ff0a16;\n    }\n"]);
+
+  _templateObject5 = function _templateObject5() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject4() {
+  var data = _taggedTemplateLiteral(["\n    position: absolute;\n    right: 15px;\n    top: 15px;\n    width: 22px;\n    height: 22px;\n    opacity: 1;\n    background-color: transparent;\n    border: 0;\n    cursor: pointer;\n    &:before,\n    &:after {\n        position: absolute;\n        left: 10px;\n        top: 0;\n        content: ' ';\n        height: 22px;\n        width: 2px;\n        background-color: white;\n    }\n    &:hover {\n        transform: rotate(45deg);\n    }\n    &:after {\n        transform: rotate(-45deg);\n    }\n"]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject3() {
+  var data = _taggedTemplateLiteral(["\n    position: relative;\n    width: 100%;\n    max-width: 900px;\n    margin: auto;\n    video {\n        height: 100%;\n        width: 100%;\n    }\n"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  var data = _taggedTemplateLiteral(["\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background: rgba(0, 0, 0, 0.5);\n    margin: 0 20px;\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = _taggedTemplateLiteral([""]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+var Container = _styledComponents.default.div(_templateObject());
+
+exports.Container = Container;
+
+var Overlay = _styledComponents.default.div(_templateObject2());
+
+exports.Overlay = Overlay;
+
+var Inner = _styledComponents.default.div(_templateObject3());
+
+exports.Inner = Inner;
+
+var Close = _styledComponents.default.button(_templateObject4());
+
+exports.Close = Close;
+
+var Button = _styledComponents.default.button(_templateObject5());
+
+exports.Button = Button;
+},{"styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js"}],"src/components/player/index.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Player;
+exports.PlayerContext = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _reactDom = _interopRequireDefault(require("react-dom"));
+
+var _player = require("./styles/player");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+var PlayerContext = (0, _react.createContext)();
+exports.PlayerContext = PlayerContext;
+
+function Player(_ref) {
+  var children = _ref.children,
+      restProps = _objectWithoutProperties(_ref, ["children"]);
+
+  var _useState = (0, _react.useState)(),
+      _useState2 = _slicedToArray(_useState, 2),
+      showPlayer = _useState2[0],
+      setShowPlayer = _useState2[1];
+
+  return /*#__PURE__*/_react.default.createElement(PlayerContext.Provider, {
+    value: {
+      showPlayer: showPlayer,
+      setShowPlayer: setShowPlayer
+    }
+  }, /*#__PURE__*/_react.default.createElement(_player.Container, restProps, children));
+}
+
+Player.Video = function PlayerVideo(_ref2) {
+  var restProps = Object.assign({}, _ref2);
+
+  var _useContext = (0, _react.useContext)(PlayerContext),
+      showPlayer = _useContext.showPlayer,
+      setShowPlayer = _useContext.setShowPlayer;
+
+  return showPlayer ? _reactDom.default.createPortal( /*#__PURE__*/_react.default.createElement(_player.Overlay, {
+    onClick: function onClick() {
+      return setShowPlayer(false);
+    }
+  }, /*#__PURE__*/_react.default.createElement(_player.Inner, null, /*#__PURE__*/_react.default.createElement("video", {
+    id: "netflix-player",
+    controls: true
+  }, /*#__PURE__*/_react.default.createElement("source", {
+    src: "/videos/bunny.mp4",
+    type: "video/mp4"
+  })), /*#__PURE__*/_react.default.createElement(_player.Close, null))), document.body) : null;
+};
+
+Player.Button = function PlayerButton(_ref3) {
+  var restProps = Object.assign({}, _ref3);
+
+  var _useContext2 = (0, _react.useContext)(PlayerContext),
+      showPlayer = _useContext2.showPlayer,
+      setShowPlayer = _useContext2.setShowPlayer;
+
+  return /*#__PURE__*/_react.default.createElement(_player.Button, {
+    onClick: function onClick() {
+      return setShowPlayer(!showPlayer);
+    }
+  }, "Play");
+}; // import React, {useState, useContext, createContext}  from "react";
+// import ReactDOM from "react-dom";
+// import { Container, Button, Overlay, Inner  } from "./styles/player";
+// export const PlayerContext = createContext();
+// export default function Player({children, ...restProps}) {
+//     const [showPlayer, setShowPlayer] = useState(false);
+//     return <PlayerContext.Provider value={{showPlayer, setShowPlayer}}>
+//         <Container {...restProps}>{children}</Container>
+//     </PlayerContext.Provider>
+// }
+// Player.Video = function PlayerVideo({...restProps}) {
+//     const {showPlayer, setShowPlayer} = useContext(PlayerContext);
+//     return showPlayer ?
+//     ReactDOM.createPortal(
+//         <Overlay onClick={() => setShowPlayer(false)}>
+//             <Inner>
+//                 <video id="netfix-player" controls>
+//                     <source  src="/videos/bunny.mp4" type="video/mp4"/>
+//                 </video>
+//             </Inner>
+//         </Overlay>,
+//         document.body
+//     ) : null;
+// }
+// Player.Button = function PlayerButton({...restProps}) {
+//     const {showPlayer, setShowPlayer} = useContext(PlayerContext);
+//     return <Button onClick={() => setShowPlayer(!showPlayer)}>Play</Button>
+// }
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./styles/player":"src/components/player/styles/player.js"}],"src/components/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -38669,6 +38868,12 @@ Object.defineProperty(exports, "Card", {
     return _card.default;
   }
 });
+Object.defineProperty(exports, "Player", {
+  enumerable: true,
+  get: function () {
+    return _player.default;
+  }
+});
 
 var _jumbotron = _interopRequireDefault(require("./jumbotron"));
 
@@ -38690,8 +38895,10 @@ var _loading = _interopRequireDefault(require("./loading"));
 
 var _card = _interopRequireDefault(require("./card"));
 
+var _player = _interopRequireDefault(require("./player"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./jumbotron":"src/components/jumbotron/index.js","./footer":"src/components/footer/index.js","./accordion":"src/components/accordion/index.js","./opt-form":"src/components/opt-form/index.js","./header":"src/components/header/index.js","./feature":"src/components/feature/index.js","./form":"src/components/form/index.js","./profiles":"src/components/profiles/index.js","./loading":"src/components/loading/index.js","./card":"src/components/card/index.js"}],"src/containers/jumbotron.js":[function(require,module,exports) {
+},{"./jumbotron":"src/components/jumbotron/index.js","./footer":"src/components/footer/index.js","./accordion":"src/components/accordion/index.js","./opt-form":"src/components/opt-form/index.js","./header":"src/components/header/index.js","./feature":"src/components/feature/index.js","./form":"src/components/form/index.js","./profiles":"src/components/profiles/index.js","./loading":"src/components/loading/index.js","./card":"src/components/card/index.js","./player":"src/components/player/index.js"}],"src/containers/jumbotron.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -40799,9 +41006,9 @@ exports.default = BrowseContainer;
 
 var _react = _interopRequireWildcard(require("react"));
 
-var _components = require("../components");
-
 var _fuse = _interopRequireDefault(require("fuse.js"));
+
+var _components = require("../components");
 
 var ROUTES = _interopRequireWildcard(require("../constants/routes"));
 
@@ -40830,22 +41037,22 @@ function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 function BrowseContainer(_ref) {
-  var slide = _ref.slide;
+  var slides = _ref.slides;
 
-  var _useState = (0, _react.useState)('series'),
+  var _useState = (0, _react.useState)({}),
       _useState2 = _slicedToArray(_useState, 2),
-      category = _useState2[0],
-      setCategory = _useState2[1];
+      profile = _useState2[0],
+      setProfile = _useState2[1];
 
-  var _useState3 = (0, _react.useState)({}),
+  var _useState3 = (0, _react.useState)(''),
       _useState4 = _slicedToArray(_useState3, 2),
-      profile = _useState4[0],
-      setProfile = _useState4[1];
+      searchTerm = _useState4[0],
+      setSearchTerm = _useState4[1];
 
-  var _useState5 = (0, _react.useState)(''),
+  var _useState5 = (0, _react.useState)('series'),
       _useState6 = _slicedToArray(_useState5, 2),
-      searchTerm = _useState6[0],
-      setSearchTerm = _useState6[1];
+      category = _useState6[0],
+      setCategory = _useState6[1];
 
   var _useState7 = (0, _react.useState)(true),
       _useState8 = _slicedToArray(_useState7, 2),
@@ -40867,11 +41074,8 @@ function BrowseContainer(_ref) {
     }, 3000);
   }, [user]);
   (0, _react.useEffect)(function () {
-    setSlideRows(slide[category]);
-  }, [slide, category]);
-  (0, _react.useEffect)(function () {
     var fuse = new _fuse.default(slideRows, {
-      key: ['data.description', 'data', 'data.genre']
+      keys: ['data.description', 'data.title', 'data.genre']
     });
     var results = fuse.search(searchTerm).map(function (_ref2) {
       var item = _ref2.item;
@@ -40881,9 +41085,12 @@ function BrowseContainer(_ref) {
     if (slideRows.length > 0 && searchTerm.length > 3 && results.length > 0) {
       setSlideRows(results);
     } else {
-      setSlideRows(slide[category]);
+      setSlideRows(slides[category]);
     }
   }, [searchTerm]);
+  (0, _react.useEffect)(function () {
+    setSlideRows(slides[category]);
+  }, [slides, category]);
   return profile.displayName ? /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, loading ? /*#__PURE__*/_react.default.createElement(_components.Loading, {
     src: user.photoURL
   }) : /*#__PURE__*/_react.default.createElement(_components.Loading.ReleaseBody, null), /*#__PURE__*/_react.default.createElement(_components.Header, {
@@ -40922,18 +41129,69 @@ function BrowseContainer(_ref) {
         key: item.docId,
         item: item
       }, /*#__PURE__*/_react.default.createElement(_components.Card.Image, {
-        src: "/images/".concat(category, "/").concat(item.genre, "/").concat(item.slug, "/small.jpg"),
-        alt: "Image"
+        src: "/images/".concat(category, "/").concat(item.genre, "/").concat(item.slug, "/small.jpg")
       }), /*#__PURE__*/_react.default.createElement(_components.Card.Meta, null, /*#__PURE__*/_react.default.createElement(_components.Card.SubTitle, null, item.title), /*#__PURE__*/_react.default.createElement(_components.Card.Text, null, item.description)));
     })), /*#__PURE__*/_react.default.createElement(_components.Card.Feature, {
       category: category
-    }));
+    }, /*#__PURE__*/_react.default.createElement(_components.Player, null, /*#__PURE__*/_react.default.createElement(_components.Player.Button, null), /*#__PURE__*/_react.default.createElement(_components.Player.Video, null))));
   })), /*#__PURE__*/_react.default.createElement(_footer.default, null)) : /*#__PURE__*/_react.default.createElement(_profiles.default, {
     user: user,
     setProfile: setProfile
   });
 }
-},{"react":"node_modules/react/index.js","../components":"src/components/index.js","fuse.js":"node_modules/fuse.js/dist/fuse.esm.js","../constants/routes":"src/constants/routes.js","../context/firebase":"src/context/firebase.js","./profiles":"src/containers/profiles.js","./footer":"src/containers/footer.js"}],"src/hooks/use-content.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","fuse.js":"node_modules/fuse.js/dist/fuse.esm.js","../components":"src/components/index.js","../constants/routes":"src/constants/routes.js","../context/firebase":"src/context/firebase.js","./profiles":"src/containers/profiles.js","./footer":"src/containers/footer.js"}],"src/hooks/use-auth-listener.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useAuthListener;
+
+var _react = require("react");
+
+require("react-router-dom");
+
+var _firebase = require("../context/firebase");
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function useAuthListener() {
+  var _useState = (0, _react.useState)(JSON.parse(localStorage.getItem('authUser'))),
+      _useState2 = _slicedToArray(_useState, 2),
+      user = _useState2[0],
+      setUser = _useState2[1];
+
+  var _useContext = (0, _react.useContext)(_firebase.FirebaseContext),
+      firebase = _useContext.firebase;
+
+  (0, _react.useEffect)(function () {
+    var listener = firebase.auth().onAuthStateChanged(function (authUser) {
+      if (authUser) {
+        localStorage.setItem('authUser', JSON.stringify(authUser));
+      } else {
+        localStorage.removeItem('authUser');
+        setUser(null);
+      }
+    });
+    return function () {
+      return listener();
+    };
+  }, []);
+  return {
+    user: user
+  };
+}
+},{"react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","../context/firebase":"src/context/firebase.js"}],"src/hooks/use-content.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -40992,6 +41250,12 @@ function useContent(target) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+Object.defineProperty(exports, "useAuthListener", {
+  enumerable: true,
+  get: function () {
+    return _useAuthListener.default;
+  }
+});
 Object.defineProperty(exports, "useContent", {
   enumerable: true,
   get: function () {
@@ -40999,10 +41263,12 @@ Object.defineProperty(exports, "useContent", {
   }
 });
 
+var _useAuthListener = _interopRequireDefault(require("./use-auth-listener"));
+
 var _useContent = _interopRequireDefault(require("./use-content"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./use-content":"src/hooks/use-content.js"}],"src/utils/selection-map.js":[function(require,module,exports) {
+},{"./use-auth-listener":"src/hooks/use-auth-listener.js","./use-content":"src/hooks/use-content.js"}],"src/utils/selection-map.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -41109,13 +41375,13 @@ function Browse() {
   var _useContent2 = (0, _hooks.useContent)('films'),
       films = _useContent2.films;
 
-  var slide = (0, _utils.selectionMap)({
+  var slides = (0, _utils.selectionMap)({
     series: series,
     films: films
   });
-  console.log(slide);
+  console.log(slides);
   return /*#__PURE__*/_react.default.createElement(_browse.default, {
-    slide: slide
+    slides: slides
   });
 }
 },{"react":"node_modules/react/index.js","../containers/browse":"src/containers/browse.js","../hooks":"src/hooks/index.js","../utils":"src/utils/index.js"}],"src/pages/index.js":[function(require,module,exports) {
@@ -41158,7 +41424,81 @@ var _signup = _interopRequireDefault(require("./signup"));
 var _browse = _interopRequireDefault(require("./browse"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./home":"src/pages/home.js","./signin":"src/pages/signin.js","./signup":"src/pages/signup.js","./browse":"src/pages/browse.js"}],"src/app.js":[function(require,module,exports) {
+},{"./home":"src/pages/home.js","./signin":"src/pages/signin.js","./signup":"src/pages/signup.js","./browse":"src/pages/browse.js"}],"src/helpers/route.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.IsUserRedirect = IsUserRedirect;
+exports.ProtectedRoute = ProtectedRoute;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactRouterDom = require("react-router-dom");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function IsUserRedirect(_ref) {
+  var user = _ref.user,
+      loggedInPath = _ref.loggedInPath,
+      children = _ref.children,
+      restProps = _objectWithoutProperties(_ref, ["user", "loggedInPath", "children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, _extends({}, restProps, {
+    render: function render() {
+      if (!user) {
+        return children;
+      }
+
+      if (user) {
+        return /*#__PURE__*/_react.default.createElement(_reactRouterDom.Redirect, {
+          to: {
+            pathname: loggedInPath
+          }
+        });
+      }
+
+      return null;
+    }
+  }));
+}
+
+function ProtectedRoute(_ref2) {
+  var user = _ref2.user,
+      children = _ref2.children,
+      restProps = _objectWithoutProperties(_ref2, ["user", "children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, _extends({}, restProps, {
+    render: function render(_ref3) {
+      var location = _ref3.location;
+
+      if (user) {
+        return children;
+      }
+
+      if (!user) {
+        return /*#__PURE__*/_react.default.createElement(_reactRouterDom.Redirect, {
+          to: {
+            pathname: 'signin',
+            state: {
+              from: location
+            }
+          }
+        });
+      }
+
+      return null;
+    }
+  }));
+}
+},{"react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js"}],"src/app.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -41174,6 +41514,10 @@ var ROUTES = _interopRequireWildcard(require("./constants/routes"));
 
 var _pages = require("./pages");
 
+var _hooks = require("./hooks");
+
+var _route = require("./helpers/route");
+
 function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
@@ -41181,18 +41525,37 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function App() {
-  return /*#__PURE__*/_react.default.createElement(_reactRouterDom.BrowserRouter, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Switch, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
+  var _useAuthListener = (0, _hooks.useAuthListener)(),
+      user = _useAuthListener.user;
+
+  console.log(user);
+  return /*#__PURE__*/_react.default.createElement(_reactRouterDom.BrowserRouter, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Switch, null, /*#__PURE__*/_react.default.createElement(_route.IsUserRedirect, {
+    user: user,
+    loggedInPath: ROUTES.BROWSE,
     path: ROUTES.SIGN_IN
-  }, /*#__PURE__*/_react.default.createElement(_pages.Signin, null)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
+  }, /*#__PURE__*/_react.default.createElement(_pages.Signin, null)), /*#__PURE__*/_react.default.createElement(_route.IsUserRedirect, {
+    user: user,
+    loggedInPath: ROUTES.BROWSE,
     path: ROUTES.SIGN_UP
-  }, /*#__PURE__*/_react.default.createElement(_pages.Signup, null)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
+  }, /*#__PURE__*/_react.default.createElement(_pages.Signup, null)), /*#__PURE__*/_react.default.createElement(_route.ProtectedRoute, {
+    user: user,
     path: ROUTES.BROWSE
-  }, /*#__PURE__*/_react.default.createElement(_pages.Browse, null)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
-    path: ROUTES.HOME,
-    exact: true
+  }, /*#__PURE__*/_react.default.createElement(_pages.Browse, null)), /*#__PURE__*/_react.default.createElement(_route.IsUserRedirect, {
+    user: user,
+    loggedInPath: ROUTES.BROWSE,
+    path: ROUTES.SIGN_UP
   }, /*#__PURE__*/_react.default.createElement(_pages.Home, null))));
 }
-},{"react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./constants/routes":"src/constants/routes.js","./pages":"src/pages/index.js"}],"src/index.js":[function(require,module,exports) {
+
+{
+  /* <Route path={ROUTES.SIGN_UP}>
+  </Route>
+  <Route path={ROUTES.BROWSE}>
+  </Route>
+  <Route path={ROUTES.HOME} exact>
+  </Route> */
+}
+},{"react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./constants/routes":"src/constants/routes.js","./pages":"src/pages/index.js","./hooks":"src/hooks/index.js","./helpers/route":"src/helpers/route.js"}],"src/index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -41251,7 +41614,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50009" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50412" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

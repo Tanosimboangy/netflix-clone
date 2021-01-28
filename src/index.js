@@ -6,7 +6,6 @@ import { FirebaseContext } from './context/firebase';
 
 // import { seedDatabase } from './seed';
 
-
 const config = {
     apiKey: "AIzaSyAt2wCjNcaBkR0lXnsnjFenAjtl8wql-qM",
     authDomain: "netflix-onja-jacquit.firebaseapp.com",
