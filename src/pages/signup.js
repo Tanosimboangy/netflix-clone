@@ -14,10 +14,7 @@ export default function Signup() {
 	const [password, setPassword] = useState('');
 	const [error, setError] = useState('');
 
-	// form validation
 	const isInvalid = firstName === '' || password === '' || emailAddress === '';
-
-	// handleSignUp (takes the event)
 	const handleSignUp = (event) => {
 		event.preventDefault();
 

@@ -39156,9 +39156,7 @@ function Signin() {
   var isInvalid = password === '' || emailAddress === '';
 
   var handleSignin = function handleSignin(event) {
-    event.preventDefault(); // call in here to firebase to authenticate the user
-    // if there's an error, populate the error state
-
+    event.preventDefault();
     firebase.auth().signInWithEmailAndPassword(emailAddress, password).then(function () {
       setEmailAddress('');
       setPassword('');
@@ -39259,10 +39257,9 @@ function Signup() {
   var _useState7 = (0, _react.useState)(''),
       _useState8 = _slicedToArray(_useState7, 2),
       error = _useState8[0],
-      setError = _useState8[1]; // form validation
+      setError = _useState8[1];
 
-
-  var isInvalid = firstName === '' || password === '' || emailAddress === ''; // handleSignUp (takes the event)
+  var isInvalid = firstName === '' || password === '' || emailAddress === '';
 
   var handleSignUp = function handleSignUp(event) {
     event.preventDefault();
@@ -41378,7 +41375,6 @@ function Browse() {
     series: series,
     films: films
   });
-  console.log(slides);
   return /*#__PURE__*/_react.default.createElement(_browse.default, {
     slides: slides
   });
@@ -41559,16 +41555,29 @@ var _firebase = require("./context/firebase");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// import { seedDatabase } from './seed';
+// import dotenv from 'dotenv';
+// dotenv.config();
 var config = {
+  // apiKey: process.env.FB_API_KEY,
   apiKey: "AIzaSyAt2wCjNcaBkR0lXnsnjFenAjtl8wql-qM",
+  // authDomain: process.env.FB_AUTH_DOMAIN,
   authDomain: "netflix-onja-jacquit.firebaseapp.com",
+  // projectId: process.env.FB_PROJECT_ID,
   projectId: "netflix-onja-jacquit",
+  // storageBucket: process.env.FB_STORAGE_BUCKET,
   storageBucket: "netflix-onja-jacquit.appspot.com",
+  // messagingSenderId: process.env.FB_MESSAGING_SENDER_ID,
   messagingSenderId: "565674547377",
-  appId: "1:565674547377:web:a3e1094e17e3efb6c6ea90"
+  // appId: process.env.FB_APP_ID,
+  appId: "1:565674547377:web:a3e1094e17e3efb6c6ea90" // FB_API_KEY=AIzaSyAt2wCjNcaBkR0lXnsnjFenAjtl8wql-qM
+  // FB_AUTH_DOMAIN=netflix-onja-jacquit.firebaseapp.com
+  // FB_PROJECTED_ID=netflix-onja-jacquit
+  // FB_STORAGE_BUCKET=netflix-onja-jacquit.appspot.com
+  // FB_MESSAGING_SENDER_ID=565674547377
+  // FB_APP_ID=1:565674547377:web:a3e1094e17e3efb6c6ea90
+
 };
-var firebase = window.firebase.initializeApp(config); // seedDatabase(firebase);
+var firebase = window.firebase.initializeApp(config);
 
 _reactDom.default.render( /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_firebase.FirebaseContext.Provider, {
   value: {
@@ -41603,7 +41612,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50538" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51909" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
