@@ -39279,8 +39279,7 @@ function Signup() {
     }).catch(function (error) {
       return setError(error.message);
     });
-  }; // try to do the markup
-
+  };
 
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_header.default, null, /*#__PURE__*/_react.default.createElement(_components.Form, null, /*#__PURE__*/_react.default.createElement(_components.Form.Title, null, "Sign Up"), error && /*#__PURE__*/_react.default.createElement(_components.Form.Error, null, error), /*#__PURE__*/_react.default.createElement(_components.Form.Base, {
     onSubmit: handleSignUp,
@@ -41528,7 +41527,6 @@ function App() {
   var _useAuthListener = (0, _hooks.useAuthListener)(),
       user = _useAuthListener.user;
 
-  console.log(user);
   return /*#__PURE__*/_react.default.createElement(_reactRouterDom.BrowserRouter, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Switch, null, /*#__PURE__*/_react.default.createElement(_route.IsUserRedirect, {
     user: user,
     loggedInPath: ROUTES.BROWSE,
@@ -41543,17 +41541,8 @@ function App() {
   }, /*#__PURE__*/_react.default.createElement(_pages.Browse, null)), /*#__PURE__*/_react.default.createElement(_route.IsUserRedirect, {
     user: user,
     loggedInPath: ROUTES.BROWSE,
-    path: ROUTES.SIGN_UP
+    path: ROUTES.HOME
   }, /*#__PURE__*/_react.default.createElement(_pages.Home, null))));
-}
-
-{
-  /* <Route path={ROUTES.SIGN_UP}>
-  </Route>
-  <Route path={ROUTES.BROWSE}>
-  </Route>
-  <Route path={ROUTES.HOME} exact>
-  </Route> */
 }
 },{"react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./constants/routes":"src/constants/routes.js","./pages":"src/pages/index.js","./hooks":"src/hooks/index.js","./helpers/route":"src/helpers/route.js"}],"src/index.js":[function(require,module,exports) {
 "use strict";
@@ -41614,7 +41603,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50412" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50538" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

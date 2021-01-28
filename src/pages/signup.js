@@ -40,8 +40,6 @@ export default function Signup() {
 			.catch((error) => setError(error.message));
 	};
 
-	// try to do the markup
-
 	return (
 		<>
 			<HeaderContainer>
